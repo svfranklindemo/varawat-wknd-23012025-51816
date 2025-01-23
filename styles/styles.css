@@ -12,11 +12,11 @@
 
 :root {
   /* colors */
-  --background-color: #f6f4f4;
-  --light-color: #f9f5f5;
-  --dark-color: #00ff00;
-  --text-color: #0d0c0c;
-  --link-color: #000000;
+  --background-color: #ffffff;
+  --light-color: #000000;
+  --dark-color: #ff0000;
+  --text-color: #00ff00;
+  --link-color: #0000ff;
   --link-hover-color: #000fff;
 
   /* fonts */
@@ -225,6 +225,7 @@ main img {
 .icon img {
   height: 100%;
   width: 100%;
+  filter: invert(1);
 }
 
 /* sections */
